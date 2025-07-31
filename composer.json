@@ -1,20 +1,21 @@
 {
-    "name": "hongyi/bucket",
-    "description": "对象云存储集合，集合国内外各大平台的对象存储",
-    "type": "library",
-    "require": {
-        "hongyi/designer": "^1.0.0"
-    },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Hongyi\\Bucket\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "zhubaiming",
-            "email": "other.zhubaiming@gmail.com"
-        }
-    ]
+  "name": "hongyi/bucket",
+  "description": "对象云存储集合，集合国内外各大平台的对象存储",
+  "type": "library",
+  "license": "MIT",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "zhubaiming",
+      "email": "other.zhubaiming@gmail"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Hongyi\\Bucket\\": "src/"
+    }
+  },
+  "require": {
+    "hongyi/designer": "^1.0.0"
+  }
 }
