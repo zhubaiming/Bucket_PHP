@@ -27,7 +27,7 @@ class AddPayloadSignaturePlugin implements PluginInterface
 
         $putPolicy = json_encode([
             'scope' => "resources-wxr:{$key}",
-            'deadline' => time()
+            'deadline' => time() + 3600
         ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 
         $encodedPutPolicy = str_replace(['+', '/'], ['-', '_'], base64_encode($putPolicy));

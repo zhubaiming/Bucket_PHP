@@ -3,7 +3,7 @@
   "description": "对象云存储集合，集合国内外各大平台的对象存储",
   "type": "library",
   "license": "MIT",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "authors": [
     {
       "name": "zhubaiming",
